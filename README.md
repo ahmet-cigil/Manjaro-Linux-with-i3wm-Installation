@@ -29,9 +29,9 @@ This is intended only to reinstall Manjaro i3 asap for my own purposes. Feel fre
  ```
  - **package installations**:
 ```bash
-   yay -S timeshift geoclue2 skypeforlinux-stable-bin sublime-text stacer kite    
+   yay -S timeshift skypeforlinux-stable-bin sublime-text stacer kite    
    postman-bin boostnote-bin simplenote-electron-bin slack-desktop    
-   session-desktop-appimage foxitreader protonvpn librewolf-bin redshift-minimal    
+   session-desktop-appimage foxitreader protonvpn librewolf-bin redshift    
    pfetch tixati playerctl alttab-git
 ```
 - add **split toggle** in i.3/config where it refers to opening a new terminal 
@@ -68,35 +68,11 @@ This is intended only to reinstall Manjaro i3 asap for my own purposes. Feel fre
 ```bash
    exec --no-startup-id alttab -fg "#d58681" -bg "#4a4a4a" -frame "#eb564d" -t 128x150 -i 127x64
 ```
-- configure **redshift**:
-    Change owner of the file to the user
-```bash
-   chown user:user /etc/geoclue/geoclue.conf # change user name
-```      
-    Add the following to the end of /etc/geoclue/geoclue.conf
-       
-```bash
-   # ...
-   [redshift]
-   allowed=true
-   system=false
-   users= # this is empty
-```
-    Change owner of the file back to root
-
-```bash
-   chown root:root /etc/geoclue/geoclue.conf
-```
-    Add to .i3/config
-```bash
-   exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent 
-   exec --no-startup-id redshift-gtk # or redshift name from Arch wiki    
-```
 - **Reduce swappiness** by creating the following script:
 ```bash
    sudo vim /etc/sysctl.d/100-manjaro.conf
 ```
-Write the following in it:
+   Write the following in it:
 ```bash
    vm.swappiness=10
 ```
