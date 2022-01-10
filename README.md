@@ -92,6 +92,14 @@ This is intended only to reinstall Manjaro i3 asap for my own purposes. Feel fre
       exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent 
       exec --no-startup-id redshift-gtk # or redshift name from Arch wiki    
 ```
+- **Reduce swappiness** by creating the following script:
+```bash
+sudo vim /etc/sysctl.d/100-manjaro.conf
+```
+Write the following in it/
+````bash
+vm.swappiness=10
+```
 
 ## Optional:
 - install **cockpit, packagekit, docker and podman**
