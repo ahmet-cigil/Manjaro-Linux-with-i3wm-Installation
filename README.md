@@ -76,6 +76,7 @@ This is intended only to reinstall Manjaro i3 asap for my own purposes. Feel fre
 ```bash
    vm.swappiness=10
 ```
+- Open **redshift** and click to auto-start
 
 ## Optional:
 - install **cockpit, packagekit, docker and podman**
