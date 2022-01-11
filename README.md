@@ -1,6 +1,7 @@
 # My Manjaro i3 Installation Guide
 
-This is intended only to reinstall Manjaro i3 asap for my own purposes. Feel free to use!
+This is intended only to reinstall Manjaro i3 asap for my own purposes.
+It is hopefully useful for others, as well!
 
 - **boot** into live USB with **proprietary drivers** enabled
 - Dell **keyboard** is French Macintosh
@@ -48,6 +49,15 @@ This is intended only to reinstall Manjaro i3 asap for my own purposes. Feel fre
 ```bash
    yay -S nerd-fonts-complete ttf-ms-fonts ttf-font-awesome-4 ttf-font-icons ttf-ionicos 
 ```
+- working with **bash**:
+   I prefer to use bash instead of zsh or fish. fzf is the fuzzy match command in this matter
+```bash
+   sudo pacman -S bash-completions fzf
+```
+       autojump enables access to files with the command j
+```bash
+   yay -S autojump
+```
 - install **webstorm** through **jetbrains-toolbox**: (add plugins for vs code too)    
   install  jetbrains and react dev tools add-ons on Firefox and Chrome    
   install themes e.g. Dracula-Colorful, Material UI light,Material Design Dark Theme,      
@@ -72,7 +82,7 @@ This is intended only to reinstall Manjaro i3 asap for my own purposes. Feel fre
 ```bash
    sudo vim /etc/sysctl.d/100-manjaro.conf
 ```
-   Write the following in it:
+       Write the following in it:
 ```bash
    vm.swappiness=10
 ```
