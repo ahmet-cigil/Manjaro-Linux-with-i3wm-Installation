@@ -29,7 +29,7 @@ This is intended only to reinstall Manjaro i3 asap for my own purposes. Feel fre
  ```
  - **package installations**:
 ```bash
-   yay -S timeshift skypeforlinux-stable-bin sublime-text stacer kite    
+   yay -S timeshift sublime-text stacer kite    
    postman-bin boostnote-bin simplenote-electron-bin slack-desktop    
    session-desktop-appimage foxitreader protonvpn librewolf-bin redshift    
    pfetch tixati playerctl alttab-git
