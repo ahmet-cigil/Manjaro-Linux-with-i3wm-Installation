@@ -50,9 +50,11 @@ It is hopefully useful for others, as well!
    yay -S nerd-fonts-complete ttf-ms-fonts ttf-font-awesome-4 ttf-font-icons ttf-ionicos 
 ```
 - working with **bash**:
-   I prefer to use bash instead of zsh or fish. fzf is the fuzzy match command in this matter
+   I prefer to use bash instead of zsh or fish.    
+   fzf is the fuzzy match command in this matter.    
+   stow is the symlink management tool.
 ```bash
-   sudo pacman -S bash-completions fzf
+   sudo pacman -S bash-completions stow fzf
 ```
        autojump enables access to files with the command j
 ```bash
