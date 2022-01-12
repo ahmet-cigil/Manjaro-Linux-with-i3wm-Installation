@@ -32,7 +32,7 @@ As always, the best guide is the official Arch Linux wiki.
    yay -S timeshift sublime-text stacer kite    
    postman-bin boostnote-bin simplenote-electron-bin slack-desktop    
    session-desktop-appimage foxitreader protonvpn librewolf-bin redshift    
-   pfetch tixati playerctl alttab-git
+   pfetch tixati playerctl alttab-git spotify
 ```
 - Add **split toggle** in i.3/config where it refers to opening a new terminal.
 - **timeshift-launcher** gui: make a system backup.
