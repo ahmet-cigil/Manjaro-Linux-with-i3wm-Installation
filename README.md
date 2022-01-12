@@ -1,7 +1,7 @@
 # My Manjaro i3 Installation Guide
 
 This is intended only to reinstall Manjaro i3 asap for my own purposes.
-It is hopefully useful for others, as well!
+As always, the best guide is the official Arch Linux wiki.
 
 - **Boot** into live USB with **proprietary drivers** enabled
 - Dell **keyboard** is French Macintosh
@@ -48,7 +48,7 @@ It is hopefully useful for others, as well!
 ```bash
    yay -S nerd-fonts-complete ttf-ms-fonts ttf-font-awesome-4 ttf-font-icons ttf-ionicos 
 ```
-   My favourite font is Agave Nerd Fonts, which can be set by lxappearance gui
+      My favourite font is Agave Nerd Fonts, which can be set by lxappearance gui
 - working with **bash**:
    I prefer to use bash instead of zsh or fish.    
    **fzf** is the fuzzy match command in this matter.    
@@ -56,7 +56,7 @@ It is hopefully useful for others, as well!
 ```bash
    sudo pacman -S bash-completions stow fzf
 ```
-   **autojump** enables access to files with the command j
+      **autojump** enables access to files with the command j
 ```bash
    yay -S autojump
 ```
@@ -84,7 +84,7 @@ It is hopefully useful for others, as well!
 ```bash
    sudo vim /etc/sysctl.d/100-manjaro.conf
 ```
-   Write the following in it:
+      Write the following in it:
 ```bash
    vm.swappiness=10
 ```
@@ -96,8 +96,8 @@ It is hopefully useful for others, as well!
 ```bash
    sudo pacman -S docker podman podman-docker cockpit-podman
 ```    
-   Configure podman following the Arch wiki
-
+      Configure podman following the Arch wiki
+- Make a system backup after all the steps on **timeshift**
 ## Notes:
 - **protonVPN** works out of the box without interfering
 - **TLP** is already installed
