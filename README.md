@@ -6,7 +6,7 @@ It is hopefully useful for others, as well!
 - **boot** into live USB with **proprietary drivers** enabled
 - Dell **keyboard** is French Macintosh
 - enable firewall gui **gufw**
-- increase **swapfile size**
+- increase **swapfile size** if the installation was done automatically:
 ```bash
    sudo swapoff -a ## turn off all swap processes
    sudo dd if=/dev/zero of=/swapfile bs=1G count=16 ## increasing swap to 16 GB
@@ -49,6 +49,7 @@ It is hopefully useful for others, as well!
 ```bash
    yay -S nerd-fonts-complete ttf-ms-fonts ttf-font-awesome-4 ttf-font-icons ttf-ionicos 
 ```
+   My favourite font is Agave Nerd Fonts, which can be set by lxappearance gui
 - working with **bash**:
    I prefer to use bash instead of zsh or fish.    
    fzf is the fuzzy match command in this matter.    
@@ -90,8 +91,10 @@ It is hopefully useful for others, as well!
 ```
 - Open **redshift** and click to auto-start
 
-## Optional:
-- install **cockpit, packagekit, docker and podman**
+- install **nvm** from the official Github curl code on https://github.com/nvm-sh/nvm    
+      Use npm or yarn as packaage managers for JavaScript
+
+
 
 ## Notes:
 - **protonVPN** works out of the box without interfering
