@@ -3,9 +3,9 @@
 This is intended only to reinstall Manjaro i3 asap for my own purposes.
 As always, the best guide is the official Arch Linux wiki.
 
-- **Boot** into live USB with **proprietary drivers** enabled
-- Dell **keyboard** is French Macintosh
-- Enable firewall gui **gufw**
+- **Boot** into live USB with **proprietary drivers** enabled.
+- My Dell **keyboard** is French Macintosh.
+- Enable firewall gui **gufw**.
 - Increase **swapfile size** if the installation was done automatically:
 ```bash
    sudo swapoff -a ## turn off all swap processes
@@ -16,26 +16,26 @@ As always, the best guide is the official Arch Linux wiki.
    grep SwapTotal /proc/meminfo ## OR just htop to see the amount of swap available
 ```
 - **Pamac-manager** gui: enable AUR
-                    choose local download servers e.g. Netherlands
-- **Manjaro-settings-manager** gui: add Turkish to locale, install language packages
-                                    install LTS kernel
-                                    sync time and date
-                                    check if all proprietary drivers installed
+                         choose local download servers e.g. Netherlands.
+- **Manjaro-settings-manager** gui: add Turkish to locale, install language packages.    
+                                    install LTS kernel.    
+                                    sync time and date.    
+                                    check if all proprietary drivers installed.    
 - **Package installations**:
- ```bash
-    sudo pacman -S firefox leafpad mpv code libreoffice-fresh atom kdenlive    
-    obs-studio pencil2d signal-desktop telegram-desktop discord    
-    firefox-developer-edition tor filezilla  youtube-dl ffmpeg calibre zathura    
-    kdeconnect meld uget
- ```
+```bash
+   sudo pacman -S firefox leafpad mpv code libreoffice-fresh atom kdenlive    
+   obs-studio pencil2d signal-desktop telegram-desktop discord    
+   firefox-developer-edition tor filezilla  youtube-dl ffmpeg calibre zathura    
+   kdeconnect meld uget
+```
 ```bash
    yay -S timeshift sublime-text stacer kite    
    postman-bin boostnote-bin simplenote-electron-bin slack-desktop    
    session-desktop-appimage foxitreader protonvpn librewolf-bin redshift    
    pfetch tixati playerctl alttab-git
 ```
-- Add **split toggle** in i.3/config where it refers to opening a new terminal 
-- **timeshift-launcher** gui: make a system backup
+- Add **split toggle** in i.3/config where it refers to opening a new terminal.
+- **timeshift-launcher** gui: make a system backup.
 - Configure **git**:
 ```bash
    git config --global user.name "Name Surname
@@ -48,15 +48,16 @@ As always, the best guide is the official Arch Linux wiki.
 ```bash
    yay -S nerd-fonts-complete ttf-ms-fonts ttf-font-awesome-4 ttf-font-icons ttf-ionicos 
 ```
-      My favourite font is Agave Nerd Fonts, which can be set by lxappearance gui
+      My favourite font is Agave Nerd Fonts, which can be set by lxappearance gui.
 - working with **bash**:
    I prefer to use bash instead of zsh or fish.    
    **fzf** is the fuzzy match command in this matter.    
    **stow** is the symlink management tool.
+   **autojump** enables access to files with the command j
 ```bash
    sudo pacman -S bash-completions stow fzf
 ```
-      **autojump** enables access to files with the command j
+   
 ```bash
    yay -S autojump
 ```
