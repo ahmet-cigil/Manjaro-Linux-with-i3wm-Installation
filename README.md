@@ -100,7 +100,8 @@ As always, the best guide is the official Arch Linux wiki.
       Configure podman following the Arch wiki
 - Make a system backup after all the steps on **timeshift**
 ## Notes:
-- **protonVPN** works out of the box after installation without extra config
-- **TLP** is already installed for laptops
-- **Tap-to-click** works out of the box for touchpad
-- Media button like play and pause works after installing **playerctl** without extra config
+- **protonVPN** works out of the box after installation without extra config.
+- **TLP** is already installed for laptops.
+- **Tap-to-click** works out of the box for touchpad.
+- Media button like play and pause works after installing **playerctl** without extra config.
+- Screen brightness buttons and volume buttons just works.
