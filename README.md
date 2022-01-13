@@ -1,6 +1,6 @@
 # My Manjaro i3 Installation Guide
 
-This is intended only to reinstall Manjaro i3 asap for my own purposes.
+This guide is intended to reinstall Manjaro i3 asap for my own purposes.
 As always, the best guide is the official Arch Linux wiki.
 
 - **Boot** into live USB with **proprietary drivers** enabled.
