@@ -61,7 +61,9 @@ As always, the best guide is the official Arch Linux wiki.
 ```bash
    yay -S autojump
 ```
-- Install **webstorm** through **jetbrains-toolbox**: (add plugins for vs code too)    
+- Install **webstorm** through **jetbrains-toolbox**: (add plugins for VS Code too)    
+  In Linux, add the full path for the right version of Chrome in browsers settings in Webstorm:   
+  /Usr/bin/google-chrome-stable    
   Install  jetbrains and react dev tools add-ons on Firefox and Chrome    
   Install themes e.g. Dracula-Colorful, Material UI light,Material Design Dark Theme,      
   Xcode, nightfall, Atom Material Icons, Quokka, kite    
