@@ -61,6 +61,10 @@ As always, the best guide is the official Arch Linux wiki.
 ```bash
    yay -S autojump
 ```
+- Install plugins for VS Code (Code-OSS): Auto Rename Tag, Bracket Pair Colonizer 2, ES7     
+     React/Redux/GraphQL/React-Native snippets (configure),Indent-rainbow, Live Server,MDX,    
+     Prettier (configure), DotENV
+
 - Install **webstorm** through **jetbrains-toolbox**: (add plugins for VS Code too)    
   In Linux, add the full path for the right version of Chrome in browsers settings in Webstorm:   
   /Usr/bin/google-chrome-stable    
