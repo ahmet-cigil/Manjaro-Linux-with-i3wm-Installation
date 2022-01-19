@@ -5,7 +5,17 @@ As always, the best guide is the official Arch Linux wiki.
 
 - **Boot** into live USB with **proprietary drivers** enabled.
 - My Dell **keyboard** is French Macintosh.
-- Enable firewall gui **gufw**.
+- Enable firewall gui **gufw**:
+```
+   sudo systemctl enable ufw
+   sudo ufw enable
+   sudo gufw
+```
+- Enable TRIM for **SSD**:
+```
+   sudo systemctl enable fstrim.timer
+   sudo systemctl start fstrim.timer
+```
 - Increase **swapfile size** if the installation was done automatically:
 ```bash
    sudo swapoff -a ## turn off all swap processes
