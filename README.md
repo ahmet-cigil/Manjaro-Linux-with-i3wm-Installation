@@ -65,7 +65,7 @@ As always, the best guide is the official Arch Linux wiki.
    **stow** is the symlink management tool.
    **autojump** enables access to files with the command j
 ```bash
-   sudo pacman -S bash-completions stow fzf
+   sudo pacman -S bash-completion stow fzf
 ```
    
 ```bash
