@@ -85,8 +85,8 @@ As always, the best guide is the official Arch Linux wiki.
 - Configure **wakatime** API on VS Code and Webstorm
 - Disable system **beep**:
 ```bash
-   rmmod pcspkr #to disable the pc speaker kernel module
-   sudo nano /etc/modprobe.d/nobeep.conf ## write the following in it
+   sudo rmmod pcspkr #to disable the pc speaker kernel module
+   sudo vim /etc/modprobe.d/nobeep.conf ## write the following in it
    blacklist pcspkr # Do not load the 'pcspkr' module on boot
 ```
 - Configure **kite** by running in a terminal:
