@@ -48,7 +48,7 @@ As always, the best guide is the official Arch Linux wiki.
 - **timeshift-launcher** gui: make a system backup.
 - Configure **git**:
 ```bash
-   git config --global user.name "Name Surname
+   git config --global user.name "Name Surname"
    git config --global user.email "email@email.com"
 ```
 - Add **fonts**:
