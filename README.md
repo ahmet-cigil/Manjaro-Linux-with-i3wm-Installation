@@ -36,7 +36,7 @@ As always, the best guide is the official Arch Linux wiki.
    sudo pacman -S firefox leafpad mpv code libreoffice-fresh atom kdenlive    
    obs-studio pencil2d signal-desktop telegram-desktop discord    
    firefox-developer-edition tor filezilla  youtube-dl ffmpeg calibre zathura    
-   kdeconnect meld uget
+   kdeconnect meld uget tor torbrowser-launcher
 ```
 ```bash
    yay -S timeshift sublime-text stacer kite    
