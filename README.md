@@ -116,6 +116,10 @@ As always, the best guide is the official Arch Linux wiki.
       Configure podman following the Arch wiki
 - Make a system backup after all the steps on **timeshift**
 - Install **ble.sh** instead of zsh or fish from their Github.
+- Download **tor** from the official website and unzip it to the Home directory. To useit:
+```
+./start-tor-browser.desktop
+```
 
 ## Notes:
 - **protonVPN** works out of the box after installation without extra config.
