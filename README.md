@@ -115,7 +115,7 @@ As always, the best guide is the official Arch Linux wiki.
 ```    
       Configure podman following the Arch wiki
 - Make a system backup after all the steps on **timeshift**
-
+- Install **ble.sh** instead of zsh or fish from their Github.
 
 ## Notes:
 - **protonVPN** works out of the box after installation without extra config.
