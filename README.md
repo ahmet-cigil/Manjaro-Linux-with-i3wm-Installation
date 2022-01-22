@@ -4,7 +4,7 @@ This guide is intended to reinstall Manjaro i3 asap for my own purposes.
 As always, the best guide is the official Arch Linux wiki.
 
 - **Boot** into live USB with **proprietary drivers** enabled.
-- My Dell **keyboard** is French Macintosh and HP is Turkish default.
+- My Dell **keyboard** is French Macintosh (setxkbmap fr -variant mac) and HP is Turkish default (tr).
 - Enable firewall gui **gufw**:
 ```
    sudo systemctl enable ufw
