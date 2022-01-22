@@ -56,7 +56,7 @@ As always, the best guide is the official Arch Linux wiki.
    sudo pacman -S ttf-jetbrains-mono ttf-ubuntu-font-family
 ```
 ```bash
-   yay -S nerd-fonts-complete ttf-ms-fonts ttf-font-awesome-4 ttf-font-icons ttf-ionicos 
+   yay -S nerd-fonts-complete ttf-ms-fonts ttf-font-awesome-4 ttf-font-icons
 ```
       My favourite font is Agave Nerd Fonts, which can be set by lxappearance gui.
 - working with **bash**:
