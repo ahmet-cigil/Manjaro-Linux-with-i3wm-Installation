@@ -33,7 +33,7 @@ As always, the best guide is the official Arch Linux wiki.
                                     check if all proprietary drivers installed.    
 - **Package installations**:
 ```bash
-   sudo pacman -S firefox leafpad mpv code libreoffice-fresh atom kdenlive    
+   sudo pacman -S firefox terminator leafpad mpv code libreoffice-fresh atom kdenlive    
    obs-studio pencil2d signal-desktop telegram-desktop discord    
    firefox-developer-edition tor filezilla  youtube-dl ffmpeg calibre zathura    
    kdeconnect meld uget 
